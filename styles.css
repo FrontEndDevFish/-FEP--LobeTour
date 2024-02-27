@@ -24,6 +24,27 @@ body {
 /* Header */
 
 header {
+    height: 82px;
     padding-inline: 2em;
     justify-content: space-between;
+    align-items: center;
 }
+
+/* Header - Nav */
+
+.nav__item {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: var(--clr-dark);
+    font-size: 18px;
+}
+
+.nav__link:hover {
+    color: var(--clr-darkest);
+    font-weight: 600;
+}
+
