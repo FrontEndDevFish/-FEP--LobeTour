@@ -11,3 +11,15 @@
     --clr-white: #fff;
 }
 
+/* Global */
+
+.flex {
+    display: flex;
+}
+
+/* Header */
+
+header {
+    padding-inline: 2em;
+    justify-content: space-between;
+}
