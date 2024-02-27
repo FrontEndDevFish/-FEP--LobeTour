@@ -11,6 +11,10 @@
     --clr-white: #fff;
 }
 
+body {
+    font-family: "Poppins", sans-serif;
+}
+
 /* Global */
 
 .flex {
