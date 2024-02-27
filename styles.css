@@ -15,13 +15,13 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-/* Global */
+/* GLOBAL */
 
 .flex {
     display: flex;
 }
 
-/* Header */
+/* HEADER */
 
 header {
     height: 82px;
@@ -33,7 +33,7 @@ header {
     z-index: 1000;
 }
 
-/* Header - Nav */
+/* HEADER - NAV */
 
 .nav__item {
     list-style: none;
@@ -51,7 +51,32 @@ header {
     font-weight: 600;
 }
 
-/* Components */
+/* HERO SECTION */
+
+.hero {
+    padding: 260px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 80px;
+}
+
+.hero-title span {
+    color: var(--clr-accent);
+}
+
+.hero-text {
+    line-height: 1.45;
+    font-size: 32px;
+    max-width: 720px;
+}
+
+/* COMPONENTS */
 
 button {
     border: none;
