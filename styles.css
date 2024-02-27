@@ -48,3 +48,25 @@ header {
     font-weight: 600;
 }
 
+/* Components */
+
+button {
+    border: none;
+    outline: none;
+}
+
+.download-btn {
+    background-color: var(--clr-accent);
+    width: 128px;
+    height: 48px;
+    border-radius: 100px;
+    color: var(--clr-white);
+    font-size: 18px;
+    font-weight: 500;
+    transition: .2s ease-in-out;
+}
+
+.download-btn:hover {
+    transform: scale3d(1.05,1.05,1.05);
+    cursor: pointer;
+}
