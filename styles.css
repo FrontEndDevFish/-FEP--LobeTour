@@ -1,0 +1,13 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-accent: #04ddb2;
+    --clr-dark: #767676;
+    --clr-darkest: #333;
+    --clr-white: #fff;
+}
+
