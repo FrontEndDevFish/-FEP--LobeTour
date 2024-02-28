@@ -59,7 +59,7 @@ header {
 /* HERO SECTION */
 
 .hero {
-    padding: 260px 64px;
+    padding: 80px 64px;
     display: flex;
     flex-direction: column;
     justify-content: center;
