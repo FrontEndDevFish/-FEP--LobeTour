@@ -21,6 +21,11 @@ body {
     display: flex;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 /* HEADER */
 
 header {
@@ -76,6 +81,14 @@ header {
     max-width: 720px;
 }
 
+.hero__img {
+    padding-top: 60px;
+}
+
+.hero__img img {
+    border-radius: 22px;
+    object-fit: cover;
+}
 /* COMPONENTS */
 
 button {
