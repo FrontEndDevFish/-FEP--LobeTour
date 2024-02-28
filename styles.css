@@ -95,6 +95,20 @@ header {
    max-width: 600px;
 }
 
+/* FOOTER */
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 70px;
+    padding-inline: 6em;
+    border-top: .5px solid rgba(0,0,0,.2);
+}
+
+.footer-copywrite-line, .footer__item {
+    font-size: 20px;
+}
+
 /* COMPONENTS */
 
 button {
