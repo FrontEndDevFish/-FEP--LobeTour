@@ -100,6 +100,12 @@ header {
 button {
     border: none;
     outline: none;
+    transition: .2s ease-in-out;
+}
+
+button:hover {
+    transform: scale3d(1.05,1.05,1.05);
+    cursor: pointer;
 }
 
 .download-btn {
@@ -110,10 +116,18 @@ button {
     color: var(--clr-white);
     font-size: 18px;
     font-weight: 500;
-    transition: .2s ease-in-out;
 }
 
-.download-btn:hover {
-    transform: scale3d(1.05,1.05,1.05);
-    cursor: pointer;
+.hero__cta {
+    background-color: var(--clr-accent);
+    width: 200px;
+    height: 64px;
+    border-radius: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--clr-white);
+}
+
+.hero__cta:hover {
+    box-shadow: 0 20px 40px -20px rgba(0,0,0,.15);
 }
