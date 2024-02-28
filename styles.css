@@ -67,7 +67,7 @@ header {
     text-align: center;
 }
 
-.hero-title {
+.hero-title, .hero-subtitle {
     font-size: 80px;
 }
 
@@ -89,6 +89,12 @@ header {
     border-radius: 22px;
     object-fit: cover;
 }
+
+.hero-subtitle {
+   padding-top: 120px;
+   max-width: 600px;
+}
+
 /* COMPONENTS */
 
 button {
