@@ -100,14 +100,42 @@ header {
 footer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
     gap: 70px;
     padding-inline: 6em;
     border-top: .5px solid rgba(0,0,0,.2);
 }
 
-.footer-copywrite-line, .footer__item {
+.footer-copywrite-line, .footer__item , .footer__link {
     font-size: 20px;
+    color: var(--clr-dark);
 }
+
+.footer__heading {
+    color: var(--clr-darkest);
+}
+
+.footer__item {
+    list-style: none;
+}
+
+.footer__link {
+    text-decoration: none;
+}
+
+.footer__icon {
+    width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--clr-accent);
+  margin: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  transition: .1s ease-in;
+}
+
 
 /* COMPONENTS */
 
